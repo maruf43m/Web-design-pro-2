@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+.logo{
+    font-size: 30px;
+    padding: 20px;
+    letter-spacing: .2em;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    list-style: none;
+    margin: 0px 20px;
+    margin-top: -50px;
+    font-size: large;
+
+}
+
+ul li a {
+    text-decoration: none; 
+    padding: 10px;
+}
+ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+button {
+    float: right;
+    margin-top: -45px;
+    margin-right: 50px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgb(255, 51, 0);
+    height: 30px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+.pro {
+    width: 100%;
+    height: 400px;
+}
+
+.about{
+    margin-left: 50px;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+img{
+    height: 400px;
+    float: right;
+    border-radius: 50%;
+    margin-top: -230px;
+    margin-right: 50px;
+
+}
+.ser{
+    width: 100%;
+    height: 400px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+hr{
+    width: 20%;
+    margin-left: 540px;
+}
+
+.webs{
+    font-size: 30px;
+}
+.web,.web2{
+    height: 300px;
+    width: 400px;
+}
+
+.lor,.lor2{
+    text-align: center;
+}
+.web2{
+    margin-left: 60%;
+    margin-top: -23%;
+}
+.web{
+    margin-left: 90px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.red {
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 50px;
+    padding: 10px;
+}
+.red:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
